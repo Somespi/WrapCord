@@ -1,4 +1,4 @@
 class Wrapcord:
-    from webhook import Webhook
+    from wrapcord.webhook import Webhook
 
     

@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as readme_file:
 
 setup(
     name='wrapcord',
-    version='0.1.0',
+    version='0.1.1',
     author='Someone',
     author_email='',
     description='Helpful tools for Discord.',

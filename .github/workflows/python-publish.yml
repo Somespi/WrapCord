@@ -9,7 +9,7 @@
 name: Upload Python Package
 
 on:
-  overflow_dispatch: 
+  overflow_dispatch
 
 permissions:
   contents: read

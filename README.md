@@ -28,7 +28,7 @@ from wrapcord import Wrapcord
 
 webhook = Wrapcord.Webhook("https://discord.com/api/webhooks/123456789012345678/abcdefg1234567")
 
-webhook.send_message(content="Hello")
+webhook.send(content="Hello")
 ```
 
 
@@ -39,7 +39,7 @@ You can also customize the message by specifying additional parameters
 
 ```python
 
-webhook.send_message(
+webhook.send(
     content="Hello, world!",
     username="My Bot",
     avatar_url="img.png",

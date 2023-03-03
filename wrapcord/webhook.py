@@ -7,7 +7,7 @@ class Webhook:
             self.token = webhook_url
         else:
             raise ValueError("Looks like webhook_url is not a valid webhook URL")
-    def send_message(self, content=None, username=None, avatar_url: str = None, tts: bool = False, files=None, embeds=None, allowed_mentions=None):
+    def send(self, content=None, username=None, avatar_url: str = None, tts: bool = False, files=None, embeds=None, allowed_mentions=None):
         dataSend: dict = {}
         if content is None and files is None and embeds is None:
             raise ValueError("Cannot send an empty message.")
